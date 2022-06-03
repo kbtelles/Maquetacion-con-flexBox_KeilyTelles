@@ -1,0 +1,175 @@
+/* Este archivo servira para agregar propiedades */
+
+/*Propiedades del fondo celeste*/
+.CCeleste{
+    width: 79.3rem;
+    height: 58rem;
+    padding: 8rem 0 0 0;
+    background: #78d0f3;
+}
+/*PROPIEDADES DEL FONDO GRIS*/
+.gris{
+    width: 47rem;
+    height: 42.5rem;
+    margin: 0 0 0 16.5rem;
+    padding: 1rem 0 0 1rem;
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+    background: #888686;
+}
+
+/*Propiedades del encabezado*/
+.ENCABEZADO{
+    width: 45rem;
+    height: 6rem;
+    padding: 0.5rem 0 0 0.5rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+    background: #CBCBCB;
+}
+
+/*Estas propiedades son para indicar que este es el padre de los circulos*/
+.circle{
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+}
+
+/*Son las propiedades del circulo rojo*/
+.circlered {
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(240, 74, 74);
+    border-radius: 50rem;
+    margin: 1.5rem 0 0 1rem;
+    display:flex;
+    flex-direction: column;
+}
+
+/*Son las propiedades del circulo amarillo*/
+.circleyellow{
+    width: 2rem;
+    height: 2rem;
+    background: #f8be20;
+    border-radius: 50rem;
+    margin: 1.5rem 0 0 1.5rem;
+    display:flex;
+    flex-direction: column;
+}
+
+/*Son las propiedades del circulo verde*/
+.circlegreen{
+    width: 2rem;
+    height: 2rem;
+    background: #15cc04;
+    border-radius: 50rem;
+    margin: 1.5rem 0 0 1.5rem;
+    display:flex;
+    flex-direction: column;
+}
+
+/*Propiedades del cuadro blanco*/
+.blanco {
+    width: 45rem;
+    height: 34.5em;
+    padding: 0.5rem 0 0 0;
+    border-radius: 0 0 1.5rem 1.5rem;
+    background: #ffffff;
+}
+
+/*Propiedad de la etiqueta que abarca los dos cuadrados rosas*/
+.rosa {
+    margin: 0.5rem 0 0 1rem; 
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+}
+
+/*Propiedades del primer cuadrada (HIJO)*/
+.primerrosa{
+    width: 27rem;
+    height: 7rem;
+    background-color: rgb(240, 74, 74);
+    display:flex;
+    flex-direction: column;
+}
+
+/*Propiedades del segundo cuadrado(HIJO)*/
+.segundorosa{
+    width: 14.5rem;
+    height: 7rem;
+    margin: 0 0 0 1.5rem;
+    background-color: rgb(240, 74, 74);
+    display:flex;
+    flex-direction: column;
+}
+
+/*Propiedades del cuadrado amarillo*/
+.yellow{
+    width: 18rem;
+    height: 17em;
+    margin: 1rem 0 0 1rem;
+    background: #f8be20;
+}
+
+/*Propiedades de los dos rectangulos morados*/
+.doscuadros {
+    width: 24rem;
+    height: 17rem;
+    margin: 0 0 0 19rem;
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+/*Primer cuadrado*/
+.primermora{
+    width: 24rem;
+    height: 8rem;
+    background: #911386;
+    display:flex;
+    flex-direction: column;
+}
+
+/*Segundo cuadrado*/
+.segundomora {
+    width: 24rem;
+    height: 8rem;
+    margin: 1rem 0 0 0 ;
+    background: #911386;
+    display:flex;
+    flex-direction: column;
+}
+
+/*Propiedades del cuadro que contiene los tres cuadros celestes*/
+.celeste {
+    width: 43em;
+    margin: 1rem 0 0 1rem; 
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+}
+
+/*Propiedades del primer cuadrada (HIJO)*/
+.primersky{
+    width: 18rem;
+    height: 6rem;
+    background-color: rgb(3, 132, 141);
+    display:flex;
+    flex-direction: column;
+}
+
+/*Propiedades del segundo cuadrado(HIJO)*/
+.segundosky{
+    width: 20rem;
+    height: 6rem;
+    margin: 0 0 0 1rem;
+    background-color: rgb(3, 132, 141);
+    display:flex;
+    flex-direction: column;
+}
+
+/*Propiedades del tercer cuadrado(HIJO)*/
+.tercersky{
+    width: 22rem;
+    height: 6.5rem;
+    margin: 0 0 1rem 1rem;
+    background-color: rgb(3, 132, 141);
+    display:flex;
+    flex-direction: column;
+}

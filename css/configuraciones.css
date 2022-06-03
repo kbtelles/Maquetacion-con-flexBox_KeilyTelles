@@ -1,0 +1,11 @@
+/*Este archivo servira para agregar proopiedades generales a la pag*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 600px; /* tamaño maximo de la página*/
+}
